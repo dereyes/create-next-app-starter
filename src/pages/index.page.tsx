@@ -1,3 +1,4 @@
+import { Button, Card } from "@heroui/react";
 import Head from "next/head";
 
 export default function Home() {
@@ -14,8 +15,11 @@ export default function Home() {
           content="width=device-width, initial-scale=1"
         />
       </Head>
-      <main>
-        <div>Hello world!</div>
+      <main className="grid place-items-center h-screen">
+        <Card className="p-5 flex flex-col gap-4">
+          hello world
+          <Button>let's go</Button>
+        </Card>
       </main>
     </>
   );
