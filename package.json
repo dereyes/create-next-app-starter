@@ -12,10 +12,15 @@
   },
   "dependencies": {
     "@heroui/react": "^2.8.4",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-unused-imports": "^4.3.0",
     "framer-motion": "^12.23.22",
-    "next": "15.5.4",
+    "next": "^15.5.7",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "typescript-eslint": "^8.48.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
